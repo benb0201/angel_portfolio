@@ -1,11 +1,11 @@
 import React from "react";
-import classes from "./Landing.module.css";
+import classes from "./Hero.module.css";
 import profilePic from "../../assets/profile-pic.jpg";
 import resume from "../../assets/resume-example.pdf";
 import linkedIn from "../../assets/linkedin.png";
 import github from "../../assets/github.png";
 
-function Landing() {
+function Hero() {
   return (
     <section className={classes.profile}>
       <div className={classes.sectionPicContainer}>
