@@ -1,11 +1,12 @@
 import "./App.css";
 import Nav from "./components/Nav";
+import Landing from "./components/sections/Landing";
 
 function App() {
   return (
     <>
       <Nav />
-      {/* <Landing author="Angel Ojuola" body="Welcome to my portfolio" /> */}
+      <Landing />
     </>
   );
 }
