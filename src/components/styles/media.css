@@ -1,11 +1,109 @@
-@media screen and (max-width: 1200px) {
+/* @media screen and (max-width: 1200px) {
     nav.desktop-nav {
       display: none;
     }
     nav.hamburger-nav {
       display: flex;
     }
-    section.experience, div.experienceDetailsContainer {
+    .experience, .experienceDetailsContainer, .projectsDetailsContainer {
+      margin-top: 2rem;
+    }
+    .profile, .sectionContainer {
+      display: block;
+    }
+    .arrow{
+      display: none;
+    }
+    section, .sectionContainer {
+      height: fit-content;
+    }
+    section {
+      margin: 0.5%;
+    }
+    .sectionPicContainer {
+      width: 25px;
+      height: 275px;
+      margin: 0 auto 2rem;
+    }
+    .aboutContainers, .experienceContainer {
+      margin-top: 0;
+    }
+  }
+
+  @media screen and (max-width: 1400px) {
+    .profile {
+      height: 83vh;
+      margin-bottom: 6rem;
+    }
+    .aboutContainers, .experienceContainer {
+      flex-wrap: wrap;
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+    .contact, footer {
+      height: 40vh;
+    }
+    .profile {
+      height: 83vh;
+      margin-bottom: 0;
+    }
+    article {
+      font-size: 1rem;
+    }
+    footer, nav {
+      height: fit-content;
+      margin-bottom: 2rem;
+    }
+    .aboutContainers, .experienceContainer,
+    .contactInfoUpperContainer, .btnContainer{
+      flex-wrap: wrap;
+    }
+    .contactInfoContainer {
+      margin: 0;
+    }
+    .contactInfoContainer p, .nav-links li a {
+      font-size: 1rem;
+    }
+    .experienceSubTitle, .projectSubtitle {
+      font-size: 1.25rem;
+    }
+    .logo {
+      font-size: 1.5rem;
+    }
+    .nav-links {
+      flex-direction: column;
+      gap: 0.5rem;
+      text-align: center;
+    }
+    .sectionPicContainer {
+      width: auto;
+      height: 46vw;
+      justify-content: center;
+    }
+    .sectionTextP2 {
+      font-size: 1.25rem;
+    }
+    .title {
+      font-size: 2rem;
+    }
+    .textContainer {
+      text-align: justify;
+    }
+  } */
+
+
+
+
+  
+  @media screen and (max-width: 1200px) {
+    nav.desktop-nav {
+      display: none;
+    }
+    nav.hamburger-nav {
+      display: flex;
+    }
+    section.experience, div.experienceDetailsContainer, div.projectsDetailsContainer {
       margin: 2rem 1rem 15rem;
     }
     section.profile, div.sectionContainer {
@@ -23,25 +121,24 @@
     div.sectionPicContainer {
       width: 25px;
       height: 275px;
-      margin: 0 36% 2rem;
+      margin: 0 auto 2rem;
     }
     div.aboutContainers, div.experienceContainer {
       margin-top: 0;
     }
-    div.textContainer {
-      text-align: justify;
-      margin: 0 2rem;
+  }
+
+  @media screen and (max-width: 1400px) {
+    section.profile {
+      height: 83vh;
+      margin-bottom: 6rem;
+    }
+    div.aboutContainers, div.experienceContainer {
+      flex-wrap: wrap;
     }
   }
 
-  @media screen and (max-width: 900px) {
-    div.sectionPicContainer {
-      margin: 0 32% 2rem;
-    }
-  }
-
-
-
+  /* CONTACT & FOOTER */
   @media screen and (max-width: 600px) {
     section.contact, footer {
       height: 40vh;
@@ -78,19 +175,18 @@
       gap: 0.5rem;
       text-align: center;
     }
-    div.projectsDetailsContainer {
-      margin: 2rem 1rem 0rem;
-    }
     div.sectionPicContainer {
       width: auto;
       height: 46vw;
       justify-content: center;
-      margin: 0 auto 2rem;
     }
     p.sectionTextP2 {
       font-size: 1.25rem;
     }
     h1.title {
       font-size: 2rem;
+    }
+    div.textContainer {
+      text-align: justify;
     }
   }
