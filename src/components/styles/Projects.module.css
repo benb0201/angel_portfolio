@@ -181,8 +181,11 @@ section {
         flex-direction: column;
       }
       div.projectsDetailsContainer {
-        margin: 0rem 2rem 0rem;
+        margin: 0rem 0rem 0rem;
       }
+      section, div.sectionContainer {
+        height: fit-content;
+        }
       img.arrow{
         display: none;
       }
@@ -194,7 +197,7 @@ section {
         flex-direction: column;
       }
       div.projectsDetailsContainer {
-        margin: 0rem 6rem 0rem;
+        margin: 0rem 2rem 0rem;
       }
       img.arrow{
         display: none;
@@ -209,6 +212,9 @@ section {
       div.projectsDetailsContainer {
         margin: 0rem 8rem 0rem;
       }
+      section, div.sectionContainer {
+        height: fit-content;
+        }
       img.arrow{
         display: none;
       }

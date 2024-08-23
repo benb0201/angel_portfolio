@@ -1,5 +1,5 @@
 import React from "react";
-import classes from "./Hero.module.css";
+import classes from "../styles/Hero.module.css";
 import profilePic from "../../assets/profile-pic.jpg";
 import resume from "../../assets/resume.pdf";
 import linkedIn from "../../assets/linkedin.png";
@@ -81,4 +81,4 @@ function Hero() {
   );
 }
 
-export default Landing;
+export default Hero;
