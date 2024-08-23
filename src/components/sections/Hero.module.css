@@ -6,9 +6,9 @@ section {
     min-height: fit-content;
 }
 
-/* Sections & Profile Section*/
+/* Hero Section*/
 
-.sectionContainer, .profile {
+ .hero {
     display: flex;
     justify-content: center;
     gap: 5rem;
@@ -45,7 +45,11 @@ section {
     text-align: center;
 }
 
-.socials-container {
+.profilePic {
+    border-radius: 2rem;
+}
+
+.socialContainer {
     display: flex;
     justify-content: center;
     margin-top: 1rem;
@@ -104,3 +108,70 @@ section {
 .btnContainer {
     gap: 1rem;
 }
+
+
+/* Media Queries */
+
+/* Mobile (0px to 599px) */
+@media screen and (max-width: 599px) {
+    .hero {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 2rem;
+        height: fit-content;
+        margin: 0 2rem 8rem;
+    }
+  
+    .sectionPicContainer {
+      width: auto;
+      height: 46vw;
+      margin: 0 auto 2rem;
+    }
+
+    .sectionPicContainer img {
+      width: auto;
+      height: 46vw;
+    }
+  
+    .sectionTextP2 {
+      font-size: 1.25rem;
+    }
+  
+    .title {
+      font-size: 2rem;
+    }
+  }
+  
+  /* Small Tablet (600px to 899px) */
+  @media screen and (min-width: 600px) and (max-width: 899px) {
+    .hero{
+        margin-top: 4rem;
+    }
+
+    .sectionPicContainer {
+        margin: 0 2rem 2rem;
+      }
+      .sectionText{
+          align-self: normal;
+          text-align: center;
+          margin-right: 2rem;
+      }
+  }
+  
+  /* Large Tablet (900px to 1199px) */
+  @media screen and (min-width: 900px) and (max-width: 1200px) {
+    .hero{
+        margin: 2rem 0 18rem;
+        height: fit-content;
+    }
+
+    .sectionPicContainer {
+      margin: 0 2rem 2rem;
+    }
+    .sectionText{
+        align-self: normal;
+        text-align: center;
+        margin-right: 2rem;
+    }
+  }

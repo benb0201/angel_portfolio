@@ -113,13 +113,26 @@ nav, .nav-links {
   .hamburger-icon span:first-child {
     transform: none;
   }
-  
-  @media screen and (max-width: 1200px) {
-    .desktop-nav {
-      display: none;
-    }
-  
-    .hamburger-nav {
-      display: flex;
-    }
+
+/* Media Queries for Breakpoints */
+
+/* Mobile (0px to 599px) */
+@media screen and (max-width: 599px) {
+  /* Adjustments for mobile */
+}
+
+/* Small Tablet (600px to 899px) */
+@media screen and (min-width: 600px) and (max-width: 899px) {
+  /* No specific adjustments needed for this breakpoint */
+}
+
+/* Large Tablet (900px to 1199px) */
+@media screen and (max-width: 1199px) {
+  nav.desktop-nav {
+    display: none;
   }
+
+  nav.hamburger-nav {
+    display: flex;
+  }
+}
