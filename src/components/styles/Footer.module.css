@@ -1,0 +1,125 @@
+nav, .nav-links {
+    display: flex;
+  }
+  
+  nav {
+    justify-content: space-around;
+    align-items: center;
+    height: 17vh;
+  }
+  
+  .nav-links{
+    gap: 2rem;
+    list-style: none;
+    font-size: 1.5rem;
+  }
+  
+  a {
+    color: black;
+    text-decoration: none;
+    text-decoration-color: white;
+  }
+  
+  a:hover {
+    color: grey;
+    text-decoration: underline;
+    text-underline-offset: 1rem;
+    text-decoration-color: rgb(181, 181, 181);
+  }
+
+  /* FOOTER */
+
+  footer {
+    height: 26vh;
+    margin: 0.1rem;
+  }
+
+  footer p {
+    text-align: center;
+  }
+
+  /* Media Queries */
+
+/* Large Tablet (900px to 1199px) */
+@media screen and (max-width: 1200px) {
+  footer {
+    height: fit-content;
+    margin-bottom: 2rem;
+  }
+
+  ul.nav-links {
+    flex-direction: column;
+    gap: 0.5rem;
+    text-align: center;
+  }
+
+  img.arrow {
+    display: none;
+  }
+
+  section, div.sectionContainer {
+    height: fit-content;
+  }
+
+  section {
+    margin: 0.5%;
+  }
+
+  /* Add spacing between the nav links and copyright text */
+  footer p {
+    margin-top: 1.5rem;
+  }
+}
+
+/* Small Tablet (600px to 899px) */
+@media screen and (max-width: 900px) {
+  ul.nav-links {
+    gap: 1rem;
+    font-size: 1.25rem;
+  }
+  
+  div.sectionPicContainer {
+    margin: 0 32% 2rem;
+  }
+
+  /* Add spacing between the nav links and copyright text */
+  footer p {
+    margin-top: 4rem;
+  }
+}
+
+/* Mobile (0px to 599px) */
+@media screen and (max-width: 600px) {
+  footer {
+    height: fit-content;
+    margin-bottom: 2rem;
+  }
+
+  ul.nav-links {
+    flex-direction: column;
+    gap: 0.5rem;
+    text-align: center;
+  }
+
+  ul.nav-links li a {
+    font-size: 1rem;
+  }
+
+  div.contactInfoUpperContainer, div.btnContainer {
+    flex-wrap: wrap;
+  }
+
+  img.arrow {
+    display: none;
+  }
+
+  h1.title {
+    font-size: 2rem;
+  }
+
+  /* Add spacing between the nav links and copyright text */
+  footer p {
+    margin-top: 2.8rem;
+  }
+}
+

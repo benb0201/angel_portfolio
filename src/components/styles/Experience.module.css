@@ -1,0 +1,169 @@
+section {
+    padding-top: 4vh;
+    height: 96vh;
+    margin: 0 10rem;
+    box-sizing: border-box;
+    min-height: fit-content;
+}
+
+.detailsContainer{
+    padding: 1.5rem;
+    flex: 1;
+    background: white;
+    border-radius: 2rem;
+    border: rgb(53, 53, 53) 0.1rem solid;
+    border-color: rgb(163, 163, 163);
+    text-align: center;
+}
+
+/* Sections*/
+
+.sectionContainer {
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+    height: 80vh;
+}
+
+.sectionPicContainer {
+    display: flex;
+    height: 300px;
+    width: 300px;
+    margin: auto 0;
+}
+
+.sectionText{
+    align-self: center;
+    text-align: center;
+}
+
+.sectionText p {
+    font-weight: 600;
+}
+
+.sectionTextP1 {
+    text-align: center;
+}
+
+.sectionTextP2 {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+.title {
+    font-size: 3rem;
+    text-align: center;
+}
+
+/* ICONS */
+
+.icon {
+    cursor: pointer;
+    height: 2rem;
+    padding: 5px 5px 0 0;
+}
+
+.arrow {
+    position: absolute;
+    right: -5rem;
+    bottom: 2.5rem;
+}
+
+
+/* EXPERIENCE */
+
+.experience {
+    position: relative;
+}
+
+/* Renamed from aboutContainers  */
+.experienceContainer { 
+    display: flex;
+    gap: 2rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+
+.experienceSubtitle {
+    color: rgb(85, 85, 85);
+    font-weight: 600;
+    font-size: 1.75rem;
+    margin-bottom: 2rem;
+}
+
+.experienceDetailsContainer {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.articleContainer {
+    display: flex;
+    text-align: initial;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 2.5rem;
+    justify-content: space-around;
+}
+
+article {
+    display: flex;
+    width: 10rem;
+    justify-content: space-around;
+    gap: 0.5rem;
+}
+
+article .icon {
+    cursor: default;
+}
+
+/* Media Quries */
+
+/* Large Tablet (900px to 1199px) */
+@media screen and (max-width: 1200px) {
+    section.experience, div.experienceDetailsContainer {
+      margin: 2rem 1rem 15rem;
+    }
+  
+    div.experienceContainer {
+      margin-top: 0;
+    }
+  
+    img.arrow {
+      display: none;
+    }
+  }
+  
+  /* Small Tablet (600px to 899px) */
+  @media screen and (max-width: 900px) {
+    div.sectionPicContainer {
+      margin: 0 32% 2rem;
+    }
+  }
+  
+  /* Mobile (0px to 599px) */
+  @media screen and (max-width: 600px) {
+    div.experienceContainer {
+      flex-wrap: wrap;
+    }
+  
+    h2.experienceSubtitle {
+      font-size: 1.25rem;
+    }
+  
+    div.sectionPicContainer {
+      width: auto;
+      height: 46vw;
+      justify-content: center;
+      margin: 0 auto 2rem;
+    }
+  
+    p.sectionTextP2 {
+      font-size: 1.25rem;
+    }
+  
+    h1.title {
+      font-size: 2rem;
+    }
+  }
+  

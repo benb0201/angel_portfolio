@@ -1,0 +1,96 @@
+@media screen and (max-width: 1200px) {
+    nav.desktop-nav {
+      display: none;
+    }
+    nav.hamburger-nav {
+      display: flex;
+    }
+    section.experience, div.experienceDetailsContainer {
+      margin: 2rem 1rem 15rem;
+    }
+    section.profile, div.sectionContainer {
+      display: block;
+    }
+    img.arrow{
+      display: none;
+    }
+    section, div.sectionContainer {
+      height: fit-content;
+    }
+    section {
+      margin: 0.5%;
+    }
+    div.sectionPicContainer {
+      width: 25px;
+      height: 275px;
+      margin: 0 36% 2rem;
+    }
+    div.aboutContainers, div.experienceContainer {
+      margin-top: 0;
+    }
+    div.textContainer {
+      text-align: justify;
+      margin: 0 2rem;
+    }
+  }
+
+  @media screen and (max-width: 900px) {
+    div.sectionPicContainer {
+      margin: 0 32% 2rem;
+    }
+  }
+
+
+
+  @media screen and (max-width: 600px) {
+    section.contact, footer {
+      height: 40vh;
+    }
+    section.profile {
+      height: 83vh;
+      margin-bottom: 0;
+    }
+    article {
+      font-size: 1rem;
+    }
+    footer, nav {
+      height: fit-content;
+      margin-bottom: 2rem;
+    }
+    div.aboutContainers, div.experienceContainer,
+    div.contactInfoUpperContainer, div.btnContainer{
+      flex-wrap: wrap;
+    }
+    div.contactInfoContainer {
+      margin: 0;
+    }
+    div.contactInfoContainer p, ul.nav-links li a {
+      font-size: 1rem;
+    }
+    h2.experienceSubTitle, h2.projectSubtitle {
+      font-size: 1.25rem;
+    }
+    h1.logo {
+      font-size: 1.5rem;
+    }
+    ul.nav-links {
+      flex-direction: column;
+      gap: 0.5rem;
+      text-align: center;
+    }
+    div.projectsDetailsContainer {
+      margin: 2rem 1rem 0rem;
+    }
+    div.sectionPicContainer {
+      width: auto;
+      height: 46vw;
+      justify-content: center;
+      margin: 0 auto 2rem;
+    }
+    p.sectionTextP2 {
+      font-size: 1.25rem;
+    }
+    h1.title {
+      font-size: 2rem;
+    }
+  }
