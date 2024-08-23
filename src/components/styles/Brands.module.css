@@ -1,12 +1,4 @@
 /* General Section Styling */
-section {
-  padding-top: 4vh;
-  height: fit-content;
-  margin: 0 10rem;
-  box-sizing: border-box;
-  min-height: fit-content;
-}
-
 .sectionTextP1 {
   text-align: center;
   font-weight: 600;
@@ -22,14 +14,15 @@ section {
 
 .brands {
   position: relative;
-  /* margin: 2rem 0 -8rem; */
+  margin: 4rem 8rem 0rem;
 }
 
 .brandsContainer {
   display: flex;
   justify-content: center;
   /* align-items: center; */
-  gap: 3rem;
+  margin: 0 5rem;
+  gap: 8rem;
   flex-wrap: wrap;
   margin-top: 2rem;
 }
@@ -63,6 +56,7 @@ section {
   padding: 5px 5px 0 0;
 }
 
+/* Arrow */
 .arrow {
   position: absolute;
   right: -5rem;

@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import classes from "./styles/Footer.module.css";
 
 const Footer = () => {
@@ -8,16 +9,16 @@ const Footer = () => {
         <div className={classes.navLinksContainer}>
           <ul className={classes["nav-links"]}>
             <li>
-              <a href="#about">About</a>
+              <Link to="/">Home</Link>
             </li>
             <li>
-              <a href="#brands">Brands</a>
+              <Link to="/about">About</Link>
             </li>
             <li>
-              <a href="#experience">Experience</a>
+              <Link to="/experience">Experience</Link>
             </li>
             <li>
-              <a href="#projects">Projects</a>
+              <Link to="/content">Content</Link>
             </li>
             <li>
               <a href="#contact">Contact</a>

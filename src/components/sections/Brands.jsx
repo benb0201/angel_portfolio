@@ -38,7 +38,7 @@ const Brands = () => {
         src={arrowIcon}
         alt="Arrow icon"
         className={`${classes.arrow} ${classes.icon}`}
-        onClick={() => (location.href = "./#experience")}
+        onClick={() => (location.href = "./#contact")}
       />
     </section>
   );

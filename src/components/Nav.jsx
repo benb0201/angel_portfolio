@@ -1,5 +1,6 @@
 import React, { useState } from "react";
-import classes from "./Nav.module.css";
+import { Link } from "react-router-dom";
+import classes from "./styles/Nav.module.css";
 
 const Nav = () => {
   // State to track if the menu is open or closed
@@ -17,16 +18,16 @@ const Nav = () => {
         <div>
           <ul className={classes["nav-links"]}>
             <li>
-              <a href="#about">About</a>
+              <Link to="/">Home</Link>
             </li>
             <li>
-              <a href="#brands">Brands</a>
+              <Link to="/about">About</Link>
             </li>
             <li>
-              <a href="#experience">Experience</a>
+              <Link to="/experience">Experience</Link>
             </li>
             <li>
-              <a href="#projects">Projects</a>
+              <Link to="/content">Content</Link>
             </li>
             <li>
               <a href="#contact">Contact</a>
@@ -57,29 +58,29 @@ const Nav = () => {
           >
             {/* Menu Items */}
             <li>
-              <a href="#about" onClick={toggleMenu}>
+              <Link to="/" onClick={toggleMenu}>
+                Home
+              </Link>
+            </li>
+            <li>
+              <Link to="/about" onClick={toggleMenu}>
                 About
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="#brands" onClick={toggleMenu}>
-                Brands
-              </a>
-            </li>
-            <li>
-              <a href="#experience" onClick={toggleMenu}>
+              <Link to="/experience" onClick={toggleMenu}>
                 Experience
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="#projects" onClick={toggleMenu}>
-                Projects
-              </a>
+              <Link to="/content" onClick={toggleMenu}>
+                Content
+              </Link>
             </li>
             <li>
-              <a href="#contact" onClick={toggleMenu}>
+              <Link to="/contact" onClick={toggleMenu}>
                 Contact
-              </a>
+              </Link>
             </li>
           </div>
         </div>

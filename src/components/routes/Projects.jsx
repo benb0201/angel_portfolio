@@ -9,7 +9,7 @@ const Projects = () => {
   return (
     <section id="projects" className={classes.projects}>
       <p className={classes.sectionTextP1}>Checkout my Recent</p>
-      <h1 className={classes.title}>Projects</h1>
+      <h1 className={classes.title}>Content</h1>
       <div className={classes.projectsDetailsContainer}>
         <div className={classes.projectsContainer}>
           <div

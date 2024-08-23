@@ -9,6 +9,7 @@ section {
 /* Hero Section*/
 
  .hero {
+    position: relative;
     display: flex;
     justify-content: center;
     gap: 5rem;
@@ -63,6 +64,13 @@ section {
     height: 2rem;
     padding: 5px 5px 0 0;
 }
+
+/* Arrow */
+.arrow {
+    position: absolute;
+    right: -5rem;
+    bottom: 2.5rem;
+  }
 
 /* BUTTONS */
 
@@ -141,6 +149,9 @@ section {
     .title {
       font-size: 2rem;
     }
+    .arrow {
+        display: none;
+    }
   }
   
   /* Small Tablet (600px to 899px) */
@@ -156,6 +167,9 @@ section {
           align-self: normal;
           text-align: center;
           margin-right: 2rem;
+      }
+      .arrow{
+        display: none;
       }
   }
   

@@ -1,9 +1,9 @@
 import "./App.css";
 import Nav from "./components/Nav";
-import Hero from "./components/sections/Hero";
-import About from "./components/sections/About";
-import Experience from "./components/sections/Experience";
-import Projects from "./components/sections/Projects";
+import Hero from "./components/routes/Hero";
+import About from "./components/routes/About";
+import Experience from "./components/routes/Experience";
+import Projects from "./components/routes/Projects";
 import Brands from "./components/sections/Brands";
 import Contact from "./components/sections/Contact";
 import Footer from "./components/Footer";

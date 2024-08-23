@@ -47,6 +47,7 @@ nav, .nav-links {
   .hamburger-menu {
     position: relative;
     display: inline-block;
+    z-index: 2; /* Added z-index */
   }
   
   .hamburger-icon {

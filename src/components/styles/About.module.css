@@ -1,14 +1,26 @@
-section {
-    padding-top: 4vh;
-    height: 96vh;
-    margin: 0 10rem;
-    box-sizing: border-box;
-    min-height: fit-content;
-}
-
 /* Sections*/
 
+.about {
+    position: relative;
+    height: fit-content;
+}
+
+.aboutMe {
+    margin-bottom: 12rem;
+}
+
+.aboutAudience {
+
+}
+
 .sectionContainer {
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+    height: 80vh;
+}
+
+.sectionContainer2 {
     display: flex;
     justify-content: center;
     gap: 5rem;
@@ -115,6 +127,9 @@ section {
     div.sectionContainer {
         display: block;
       }
+      div.sectionContainer2 {
+        display: block;
+      }
     div.sectionPicContainer {
     width: auto;
     height: 46vw;
@@ -140,6 +155,10 @@ section {
         margin: -6rem 0 18rem;
     }
     .sectionContainer {
+        height: fit-content;
+        display: block;
+    }
+    .sectionContainer2 {
         height: fit-content;
         display: block;
     }
