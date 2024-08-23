@@ -1,5 +1,3 @@
-@import "../styles/media.css"; /* Import the global media queries */
-
 nav, .nav-links {
     display: flex;
   }
