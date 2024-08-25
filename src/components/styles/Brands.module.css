@@ -10,6 +10,14 @@
   margin-bottom: 2rem;
 }
 
+.sectionTextP2 {
+  font-weight: 600;
+  font-size: 1.2rem;
+  margin: 4rem 12rem 0;
+  align-self: center;
+  text-align: center;
+}
+
 /* Brands Container */
 
 .brands {
@@ -21,8 +29,8 @@
   display: flex;
   justify-content: center;
   /* align-items: center; */
-  margin: 0 5rem;
-  gap: 8rem;
+  margin: 0 18rem;
+  gap: 4rem;
   flex-wrap: wrap;
   margin-top: 2rem;
 }

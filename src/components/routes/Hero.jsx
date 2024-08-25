@@ -3,6 +3,7 @@ import classes from "../styles/Hero.module.css";
 import arrowIcon from "../../assets/arrow.png";
 import profilePic from "../../assets/profile-pic.jpg";
 import resume from "../../assets/resume.pdf";
+import mediaKit from "../../assets/media-kit.pdf";
 import linkedIn from "../../assets/linkedin.png";
 import github from "../../assets/github.png";
 import instagram from "../../assets/instagram.png";
@@ -28,9 +29,9 @@ function Hero() {
           <div className={classes.btnContainer}>
             <button
               className={`${classes.btn} ${classes.btnColor2}`}
-              onClick={() => window.open(resume, "_blank")}
+              onClick={() => window.open(mediaKit, "_blank")}
             >
-              Download CV
+              Download Media-kit
             </button>
             <button
               className={`${classes.btn} ${classes.btnColor1}`}

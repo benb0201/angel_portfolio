@@ -31,8 +31,8 @@ const About = () => {
                 />
                 <h3>Experience</h3>
                 <p>
-                  2+ years <br />
-                  Product Management
+                  4+ years in Content Creation <br />
+                  Previous Social Media Analyst
                 </p>
               </div>
               <div className={classes.detailsContainer}>
@@ -50,46 +50,19 @@ const About = () => {
             </div>
             <div className={classes.textContainer}>
               <p>
-                I’m a content creator, who films her development journey as a
-                MSc student in AI and data Science. My journey isn't just
-                academic; it's a story of resilience-filled with ups and downs,
-                challenges, failures and success. Through my content, I invite
-                my audience into my life, offering not just a glimpse into my
-                life but invaluable insights, opportunities, and advice that
-                resonate with anyone navigating their own path of discovery and
-                success.
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div className={classes.aboutAudience}>
-        <p className={classes.sectionTextP1}>Get To Know More</p>
-        <h1 className={classes.title}>About My Audience</h1>
-        <div className={classes.sectionContainer2}>
-          <div className={classes.sectionPicContainer}>
-            {/* <img
-              src={aboutAudience}
-              alt="About audience picture1"
-              className={classes.aboutPic}
-            /> */}
-          </div>
-          <div className={classes.sectionPicContainer}>
-            <img
-              src={aboutAudience2}
-              alt="About audience picture1"
-              className={classes.aboutPic}
-            />
-          </div>
-          <div className={classes.aboutDetailsContainer}>
-            <div className={classes.textContainer}>
-              <p>
-                My community and I explore the endless possibilities the world
-                has to offer by learning from each other, and encouraging our
-                selves to continuously develop. Their journey might just be
-                beginning, and I'm here to inspire and guide them through every
-                step of that way! I achieve this through storytelling, tried and
-                trusted recommendations and more...
+                I’m a TikTok influencer and MSc. student in Artificial
+                Intelligence and Data Science based in the United Kingdom. My
+                journey through this field is more than academic—it’s a story of
+                resilience, marked by challenges and successes. Through my
+                content, I invite my audience into this journey, offering
+                insights, opportunities, and advice that resonate with anyone
+                forging their own path to success.
+                {/* I'm a TikTok influencer and MSc. student in Artificial
+                Intelligence and Data Science based in the United Kingdom. My
+                content invites viewers into my life, offering more than just a
+                glimpse of student life—it provides actionable insights,
+                opportunities, and advice that resonate with anyone navigating
+                their journey toward personal and professional success. */}
               </p>
             </div>
           </div>

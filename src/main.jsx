@@ -6,7 +6,7 @@ import Hero from "./components/routes/Hero.jsx";
 import RootLayout from "./components/routes/RootLayout.jsx";
 import "./index.css";
 import About from "./components/routes/About.jsx";
-import Experience from "./components/routes/Experience.jsx";
+import Audience from "./components/routes/Audience.jsx";
 import Projects from "./components/routes/Projects.jsx";
 
 const router = createBrowserRouter([
@@ -16,7 +16,7 @@ const router = createBrowserRouter([
     children: [
       { path: "/", element: <Hero /> },
       { path: "/about", element: <About /> },
-      { path: "/experience", element: <Experience /> },
+      { path: "/audience", element: <Audience /> },
       { path: "/content", element: <Projects /> },
     ],
   },

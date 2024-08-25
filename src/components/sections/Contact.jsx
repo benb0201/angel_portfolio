@@ -6,8 +6,8 @@ import linkedin from "../../assets/linkedin.png";
 const Contact = () => {
   return (
     <section id="contact" className={classes.contact}>
-      <p className={classes.sectionTextP1}>Get In Touch</p>
-      <h1 className={classes.title}>Work With Me Today</h1>
+      <p className={classes.sectionTextP1}>Message Me Today</p>
+      <h1 className={classes.title}>Let's Work Together</h1>
       <div className={classes.contactInfoUpperContainer}>
         <div className={classes.contactInfoContainer}>
           <img
