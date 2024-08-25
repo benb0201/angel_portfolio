@@ -34,9 +34,11 @@ const Brands = () => {
         </div>
         {/* Add more brand logos as needed */}
       </div>
-      <p className={classes.sectionTextP2}>
-        Offering my services to brands for over 2 years.
-      </p>
+      <div className={classes.sectionText}>
+        <p className={classes.sectionTextP2}>
+          Offering my services to brands for over 2 years.
+        </p>
+      </div>
       <img
         src={arrowIcon}
         alt="Arrow icon"

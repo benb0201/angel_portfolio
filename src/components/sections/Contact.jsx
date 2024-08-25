@@ -16,7 +16,7 @@ const Contact = () => {
             className={`${classes.icon} ${classes.contactIcon} ${classes.emailIcon}`}
           />
           <p>
-            <a href="mailto:angelariyibi@gmail.com">Mail</a>
+            <a href="mailto:angelojuola@gmail.com">angelojuola@gmail.com</a>
           </p>
         </div>
         <div className={classes.contactInfoContainer}>
