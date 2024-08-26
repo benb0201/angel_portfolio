@@ -56,7 +56,8 @@ const About = () => {
                 resilience, marked by challenges and successes. Through my
                 content, I invite my audience into this journey, offering
                 insights, opportunities, and advice that resonate with anyone
-                forging their own path to success.
+                navigating their journey toward personal and professional
+                success.
                 {/* I'm a TikTok influencer and MSc. student in Artificial
                 Intelligence and Data Science based in the United Kingdom. My
                 content invites viewers into my life, offering more than just a
