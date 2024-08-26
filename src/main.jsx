@@ -8,6 +8,8 @@ import "./index.css";
 import About from "./components/routes/About.jsx";
 import Audience from "./components/routes/Audience.jsx";
 import Projects from "./components/routes/Projects.jsx";
+import Mentorship from "./components/routes/Mentorship.jsx";
+import Ebooks from "./components/routes/Ebooks.jsx";
 
 const router = createBrowserRouter([
   {
@@ -15,9 +17,9 @@ const router = createBrowserRouter([
     element: <RootLayout />,
     children: [
       { path: "/", element: <Hero /> },
-      { path: "/about", element: <About /> },
-      { path: "/audience", element: <Audience /> },
       { path: "/content", element: <Projects /> },
+      { path: "/mentorship", element: <Mentorship /> }, // New Route
+      { path: "/ebooks", element: <Ebooks /> }, // New Route
     ],
   },
 ]);

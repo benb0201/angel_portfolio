@@ -23,6 +23,10 @@ section {
     margin: auto 0;
 }
 
+.sectionPicContainer img {
+    border-radius: 2rem;
+}
+
 .sectionText{
     align-self: center;
     text-align: center;

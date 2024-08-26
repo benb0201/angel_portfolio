@@ -20,14 +20,20 @@ const Nav = () => {
             <li>
               <Link to="/">Home</Link>
             </li>
-            <li>
+            {/* <li>
               <Link to="/about">About Me</Link>
-            </li>
-            <li>
+            </li> */}
+            {/* <li>
               <Link to="/audience">My Audience</Link>
+            </li> */}
+            <li>
+              <Link to="/content">Brand Collaboration</Link>
             </li>
             <li>
-              <Link to="/content">Collaboration</Link>
+              <Link to="/Mentorship">Mentorship</Link>
+            </li>
+            <li>
+              <Link to="/ebooks">Ebooks</Link>
             </li>
             <li>
               <a href="#contact">Contact</a>
@@ -62,19 +68,29 @@ const Nav = () => {
                 Home
               </Link>
             </li>
-            <li>
+            {/* <li>
               <Link to="/about" onClick={toggleMenu}>
                 About
               </Link>
-            </li>
-            <li>
+            </li> */}
+            {/* <li>
               <Link to="/audience" onClick={toggleMenu}>
                 My Audience
               </Link>
-            </li>
+            </li> */}
             <li>
               <Link to="/content" onClick={toggleMenu}>
-                Collaboration
+                Brand Collaboration
+              </Link>
+            </li>
+            <li>
+              <Link to="/Mentorship" onClick={toggleMenu}>
+                Mentorship
+              </Link>
+            </li>
+            <li>
+              <Link to="/ebooks" onClick={toggleMenu}>
+                Ebooks
               </Link>
             </li>
             <li>

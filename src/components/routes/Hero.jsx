@@ -10,6 +10,7 @@ import instagram from "../../assets/instagram.png";
 import tiktok from "../../assets/tiktok.png";
 import youtube from "../../assets/youtube.png";
 import Brands from "../sections/Brands";
+import About from "./About";
 
 function Hero() {
   return (
@@ -22,16 +23,14 @@ function Hero() {
           <p className={classes.sectionTextP1}>Hello, I'm</p>
           <h1 className={classes.title}>Angel</h1>
           <p className={classes.sectionTextP2}>
-            "Inspiring early career students & professionals to elevate their
-            mindsets, chase their dreams and become better versions of
-            themselves."
+            Content Creator | AI & Data Scientist
           </p>
           <div className={classes.btnContainer}>
             <button
               className={`${classes.btn} ${classes.btnColor2}`}
               onClick={() => window.open(mediaKit, "_blank")}
             >
-              Download Media-kit
+              View Media-kit
             </button>
             <button
               className={`${classes.btn} ${classes.btnColor1}`}
@@ -82,6 +81,7 @@ function Hero() {
           onClick={() => (location.href = "./#brands")}
         />
       </section>
+      <About />
       <Brands />
     </>
   );
