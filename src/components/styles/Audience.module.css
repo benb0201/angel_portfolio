@@ -62,12 +62,23 @@
     height: 2rem;
     padding: 5px 5px 0 0;
 }
+
 .comment {
     cursor: pointer;
     height: 4rem;
     padding: 5px 5px 0 0;
     width: fit-content;
 }
+
+.comment, .question1 {
+  height: 4rem; /* Adjust the height */
+  width: auto;
+  object-fit: cover; /* Keep the aspect ratio */
+  margin: 0 auto;
+  padding: 0;
+}
+
+
 
 .arrow {
     position: absolute;
