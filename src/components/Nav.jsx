@@ -27,7 +27,7 @@ const Nav = () => {
               <Link to="/audience">My Audience</Link>
             </li> */}
             <li>
-              <Link to="/content">Brand Collaboration</Link>
+              <Link to="/content">Promotional Services</Link>
             </li>
             <li>
               <Link to="/Mentorship">Mentorship</Link>
@@ -80,7 +80,7 @@ const Nav = () => {
             </li> */}
             <li>
               <Link to="/content" onClick={toggleMenu}>
-                Brand Collaboration
+                Promotional Services
               </Link>
             </li>
             <li>

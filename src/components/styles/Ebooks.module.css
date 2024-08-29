@@ -13,3 +13,47 @@
     color: rgb(85, 85, 85);
   }
   
+  /* Media Queries */
+
+/* Mobile (0px to 599px) */
+@media screen and (max-width: 599px) {
+  /* .ebooks {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      gap: 2rem;
+      height: fit-content;
+      margin: 0 2rem 8rem;
+  } */
+
+  .title {
+    font-size: 2rem;
+  }
+
+  .text{
+    font-size: 1.2rem;
+}
+}
+
+/* Small Tablet (600px to 899px) */
+@media screen and (min-width: 600px) and (max-width: 899px) {
+  /* .ebooks{
+      margin-top: 4rem;
+  } */
+  .text{
+    font-size: 1.4rem;
+  }
+}
+
+/* Large Tablet (900px to 1199px) */
+@media screen and (min-width: 900px) and (max-width: 1200px) {
+  /* .ebooks{
+      margin: 2rem 0 18rem;
+      height: fit-content;
+  } */
+  .text{
+      align-self: normal;
+      text-align: center;
+      margin-right: 2rem;
+  }
+}

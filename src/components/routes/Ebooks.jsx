@@ -6,8 +6,8 @@ const Ebooks = () => {
     <section className={classes.ebooks}>
       <h1 className={classes.title}>Ebooks - Coming Soon</h1>
       <p className={classes.text}>
-        We are currently working on our collection of ebooks. Check back later
-        for resources and materials designed to help you grow!
+        I am currently working on my collection of ebooks. Check back later for
+        resources and materials designed to help you grow!
       </p>
     </section>
   );

@@ -1,5 +1,6 @@
 import React from "react";
 import classes from "../styles/Brands.module.css";
+import { Link } from "react-router-dom";
 import arrowIcon from "../../assets/arrow.png";
 import amazon from "../../assets/amazon.png";
 import plum from "../../assets/plum.png";
@@ -36,7 +37,10 @@ const Brands = () => {
       </div>
       <div className={classes.sectionText}>
         <p className={classes.sectionTextP2}>
-          Offering my services to brands for over 2 years.
+          Offering my content creation services to brands for over 2 years.{" "}
+          <br />
+          Go to my <Link to="/content">Promotional Services</Link> page to learn
+          more.
         </p>
       </div>
       <img

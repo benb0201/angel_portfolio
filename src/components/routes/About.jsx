@@ -50,20 +50,18 @@ const About = () => {
             </div>
             <div className={classes.textContainer}>
               <p>
-                I’m a TikTok influencer and MSc. student in Artificial
-                Intelligence and Data Science based in the United Kingdom. My
+                {/* I’m a TikTok influencer and a AI & Data Scientist based in the UK. My
                 journey through this field is more than academic—it’s a story of
                 resilience, marked by challenges and successes. Through my
                 content, I invite my audience into this journey, offering
                 insights, opportunities, and advice that resonate with anyone
                 navigating their journey toward personal and professional
-                success.
-                {/* I'm a TikTok influencer and MSc. student in Artificial
-                Intelligence and Data Science based in the United Kingdom. My
-                content invites viewers into my life, offering more than just a
-                glimpse of student life—it provides actionable insights,
+                success. */}
+                I'm a TikTok influencer and a AI & Data Scientist based in the
+                UK. My content invites viewers into my life, offering more than
+                just a glimpse of student life—it provides actionable insights,
                 opportunities, and advice that resonate with anyone navigating
-                their journey toward personal and professional success. */}
+                their journey toward personal and professional success.
               </p>
             </div>
           </div>

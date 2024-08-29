@@ -66,6 +66,7 @@
     cursor: pointer;
     height: 4rem;
     padding: 5px 5px 0 0;
+    width: fit-content;
 }
 
 .arrow {
@@ -157,6 +158,12 @@ article .icon {
   
   /* Mobile (0px to 599px) */
   @media screen and (max-width: 600px) {
+    .question1{
+      height: 2.5rem;
+    }
+    .comment3{
+      height: 5rem;
+    }
     div.experienceContainer {
       flex-wrap: wrap;
     }

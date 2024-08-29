@@ -16,7 +16,7 @@ import question3 from "../../assets/question3.jpg";
 const Audience = () => {
   return (
     <section id="audience" className={classes.audience}>
-      <p className={classes.sectionTextP1}>Discover My</p>
+      <p className={classes.sectionTextP1}>Learn About My</p>
       <h1 className={classes.title}>Audience</h1>
       <div className={classes.experienceDetailsContainer}>
         <div className={classes.experienceContainer}>
@@ -63,7 +63,7 @@ const Audience = () => {
                 <img
                   src={comment3}
                   alt="Comment3"
-                  className={classes.comment}
+                  className={`${classes.comment} ${classes.comment3}`}
                 />
               </article>
               <article>
@@ -82,7 +82,7 @@ const Audience = () => {
                 <img
                   src={question1}
                   alt="Question 1"
-                  className={classes.comment}
+                  className={`${classes.comment} ${classes.question1}`}
                 />
               </article>
               <article>
