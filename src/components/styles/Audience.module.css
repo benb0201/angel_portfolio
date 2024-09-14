@@ -1,20 +1,27 @@
+html {
+  -webkit-text-size-adjust: 100%; /* Prevents automatic text scaling */
+}
+body {
+  overflow-x: hidden; /* Prevents horizontal scrolling if the layout overflows */
+}
+
 .audience {
   position: relative;
   height: fit-content;
-  margin-bottom: 8rem;
+  margin: 0 1rem 8rem 1rem;
+  max-width: 100%; /* Ensures it doesn't overflow on mobile */
 }
 
-.detailsContainer{
-    padding: 1.5rem;
-    flex: 1;
-    background: white;
-    border-radius: 2rem;
-    border: rgb(53, 53, 53) 0.1rem solid;
-    border-color: rgb(163, 163, 163);
-    text-align: center;
-    /* height: 1rem; */
-    width: auto;
+.detailsContainer {
+  padding: 1.5rem;
+  background: white;
+  border-radius: 2rem;
+  border: rgb(163, 163, 163) 0.1rem solid;
+  text-align: center;
+  width: 100%; /* Use full width of the screen */
+  max-width: 100%; /* Make sure the container fits within the mobile view */
 }
+
 
 /* Sections*/
 
