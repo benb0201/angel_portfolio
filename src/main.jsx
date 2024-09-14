@@ -10,6 +10,7 @@ import Audience from "./components/routes/Audience.jsx";
 import Projects from "./components/routes/Projects.jsx";
 import Mentorship from "./components/routes/Mentorship.jsx";
 import Ebooks from "./components/routes/Ebooks.jsx";
+import Engagement from "./components/routes/Engagement.jsx";
 
 const router = createBrowserRouter([
   {
@@ -18,6 +19,7 @@ const router = createBrowserRouter([
     children: [
       { path: "/", element: <Hero /> },
       { path: "/content", element: <Projects /> },
+      { path: "/engage", element: <Engagement /> },
       { path: "/mentorship", element: <Mentorship /> }, // New Route
       { path: "/ebooks", element: <Ebooks /> }, // New Route
     ],

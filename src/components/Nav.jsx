@@ -84,6 +84,11 @@ const Nav = () => {
               </Link>
             </li>
             <li>
+              <Link to="/engage" onClick={toggleMenu}>
+                Engagement
+              </Link>
+            </li>
+            <li>
               <Link to="/Mentorship" onClick={toggleMenu}>
                 Mentorship
               </Link>
