@@ -1,6 +1,6 @@
 .audience {
   position: relative;
-  height: fit-contentx;
+  height: fit-content;
   margin-bottom: 8rem;
 }
 
@@ -73,7 +73,7 @@
 .comment, .question1 {
   height: 4rem; /* Adjust the height */
   width: auto;
-  object-fit: cover; /* Keep the aspect ratio */
+  /* object-fit: cover; */
   margin: 0 auto;
   padding: 0;
 }
@@ -206,7 +206,7 @@ article .icon {
       justify-content: space-between;
   }  
   .audience {
-    margin-bottom: -10rem;
+    /* margin-bottom: -10rem; */
   }
   }
   
