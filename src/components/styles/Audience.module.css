@@ -1,8 +1,8 @@
-html {
-  -webkit-text-size-adjust: 100%; /* Prevents automatic text scaling */
-}
 body {
-  overflow-x: hidden; /* Prevents horizontal scrolling if the layout overflows */
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
 }
 
 .audience {
@@ -71,11 +71,14 @@ body {
 }
 
 .comment {
-    cursor: pointer;
-    height: 4rem;
-    padding: 5px 5px 0 0;
-    width: fit-content;
+  cursor: pointer;
+  height: auto; /* Let the height adjust naturally based on the width */
+  width: 100%; /* Fill the container */
+  object-fit: contain; /* Ensure the entire image fits within the specified dimensions */
+  padding: 5px 0;
 }
+
+
 
 .comment, .question1 {
   height: 4rem; /* Adjust the height */
@@ -132,12 +135,13 @@ body {
 }
 
 .articleContainer2 {
-    display: flex;
-    flex-wrap: wrap;
-    /* flex-direction: column; */
-    gap: 2.5rem;
-    justify-content: space-evenly;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem; /* Adjust gap to fit images more tightly on mobile */
+  justify-content: space-between;
+  width: 100%; /* Make sure the container spans the full width */
 }
+
 
 article {
     display: flex;
