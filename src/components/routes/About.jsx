@@ -32,7 +32,8 @@ const About = () => {
                 <h3>Experience</h3>
                 <p>
                   4+ years in Content Creation <br />
-                  Previous Social Media Analyst
+                  Over 2 years creating UGC content <br />
+                  Over 1 year in public speaking
                 </p>
               </div>
               <div className={classes.detailsContainer}>
@@ -57,11 +58,12 @@ const About = () => {
                 insights, opportunities, and advice that resonate with anyone
                 navigating their journey toward personal and professional
                 success. */}
-                I'm a TikTok influencer and a AI & Data Scientist based in the
-                UK. My content invites viewers into my life, offering more than
-                just a glimpse of student life—it provides actionable insights,
-                opportunities, and advice that resonate with anyone navigating
-                their journey toward personal and professional success.
+                I'm a TikTok influencer and a AI & Data Science graduate, who is
+                now a software product lead in the UK. My content invites
+                viewers into my life, offering more than just a glimpse of life
+                after university—it provides actionable insights, opportunities,
+                and advice that resonate with anyone navigating their journey
+                toward personal and professional success.
               </p>
             </div>
           </div>

@@ -37,8 +37,8 @@ const Brands = () => {
       </div>
       <div className={classes.sectionText}>
         <p className={classes.sectionTextP2}>
-          Offering my content creation services to brands for over 2 years.{" "}
-          <br />
+          I have offered my content creation services to brands for over 2
+          years. <br />
           Go to my <Link to="/content">Promotional Services</Link> page to learn
           more.
         </p>

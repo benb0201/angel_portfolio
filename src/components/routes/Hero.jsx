@@ -20,10 +20,9 @@ function Hero() {
           <img src={profilePic} alt="Angel profile pic" />
         </div>
         <div className={classes.sectionText}>
-          <p className={classes.sectionTextP1}>Hello, I'm</p>
-          <h1 className={classes.title}>Angel</h1>
+          <h1 className={classes.title}>Angel Ojuola</h1>
           <p className={classes.sectionTextP2}>
-            Empowering confidence and growth through content creation
+            Empowering your confidence and growth through content creation
           </p>
           <div className={classes.btnContainer}>
             <button
