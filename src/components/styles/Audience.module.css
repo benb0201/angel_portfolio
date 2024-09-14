@@ -1,27 +1,21 @@
-body {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  overflow-x: hidden;
-}
 
 .audience {
   position: relative;
   height: fit-content;
-  margin: 0 1rem 8rem 1rem;
-  max-width: 100%; /* Ensures it doesn't overflow on mobile */
+  margin-bottom: 8rem;
 }
 
-.detailsContainer {
-  padding: 1.5rem;
-  background: white;
-  border-radius: 2rem;
-  border: rgb(163, 163, 163) 0.1rem solid;
-  text-align: center;
-  width: 100%; /* Use full width of the screen */
-  max-width: 100%; /* Make sure the container fits within the mobile view */
+.detailsContainer{
+    padding: 1.5rem;
+    flex: 1;
+    background: white;
+    border-radius: 2rem;
+    border: rgb(53, 53, 53) 0.1rem solid;
+    border-color: rgb(163, 163, 163);
+    text-align: center;
+    /* height: 1rem; */
+    width: auto;
 }
-
 
 /* Sections*/
 
@@ -71,13 +65,11 @@ body {
 }
 
 .comment {
-  width: 100%;
-  height: 200px; /* Fixed height for all images */
-  object-fit: cover; /* Ensure the images fill the space */
+    cursor: pointer;
+    height: 4rem;
+    padding: 5px 5px 0 0;
+    width: fit-content;
 }
-
-
-
 
 .comment, .question1 {
   height: 4rem; /* Adjust the height */
@@ -134,13 +126,12 @@ body {
 }
 
 .articleContainer2 {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 1.5rem; /* Adjust gap to fit images more tightly on mobile */
-  justify-content: space-between;
-  width: 100%; /* Make sure the container spans the full width */
+    display: flex;
+    flex-wrap: wrap;
+    /* flex-direction: column; */
+    gap: 2.5rem;
+    justify-content: space-evenly;
 }
-
 
 article {
     display: flex;
