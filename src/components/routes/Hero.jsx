@@ -23,7 +23,7 @@ function Hero() {
           <p className={classes.sectionTextP1}>Hello, I'm</p>
           <h1 className={classes.title}>Angel</h1>
           <p className={classes.sectionTextP2}>
-            Content Creator | AI & Data Scientist
+            Empowering confidence and growth through content creation
           </p>
           <div className={classes.btnContainer}>
             <button

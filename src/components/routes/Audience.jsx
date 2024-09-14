@@ -50,7 +50,7 @@ const Audience = () => {
             </div>
           </div>
           <div className={classes.detailsContainer}>
-            <h2 className={classes.experienceSubtitle}>Feedback</h2>
+            <h2 className={classes.experienceSubtitle}>Engagement</h2>
             <div className={classes.articleContainer2}>
               <article>
                 <img
@@ -74,9 +74,6 @@ const Audience = () => {
                 />
               </article>
             </div>
-          </div>
-          <div className={classes.detailsContainer}>
-            <h2 className={classes.experienceSubtitle}>Questions</h2>
             <div className={classes.articleContainer2}>
               <article>
                 <img
