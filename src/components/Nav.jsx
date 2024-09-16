@@ -94,9 +94,9 @@ const Nav = () => {
               </Link>
             </li>
             <li>
-              <Link to="/contact" onClick={toggleMenu}>
+              <a href="#contact" onClick={toggleMenu}>
                 Contact
-              </Link>
+              </a>
             </li>
           </div>
         </div>

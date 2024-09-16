@@ -1,8 +1,8 @@
 import "./App.css";
 import Nav from "./components/Nav";
 import Hero from "./components/routes/Hero";
-import About from "./components/routes/About";
-import Audience from "./components/routes/Audience";
+import About from "./components/sections/About";
+import Audience from "./components/sections/Audience";
 import Projects from "./components/routes/Projects";
 import Brands from "./components/sections/Brands";
 import Contact from "./components/sections/Contact";

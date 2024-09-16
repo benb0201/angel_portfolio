@@ -1,0 +1,66 @@
+/* Video and analytics container styling */
+.videoAnalyticsContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: rgb(250, 250, 250); /* Matches the rest of the site */
+    padding: 2rem;
+    border-radius: 1rem;
+    margin: 10rem 20rem; /* Added margin to match the spacing from your screenshot */
+    border: 0.1rem solid rgb(163, 163, 163); /* Light grey border for the video box */
+    max-width: 1200px; /* Adjust the max-width to align with your promotional services */
+  }
+  
+  /* For Desktop and larger screen modes */
+  @media screen and (min-width: 900px) {
+    .videoAnalyticsContainer {
+      flex-direction: row; /* Makes the layout horizontal for desktop */
+      justify-content: space-between;
+    }
+  
+    .videoContainer {
+      flex: 1;
+      margin-right: 2rem; /* Space between video and analytics */
+    }
+  
+    .analyticsContainer {
+      flex: 1;
+      text-align: left;
+    }
+  }
+  
+  .responsiveIframe {
+    width: 100%;
+    max-width: 600px; /* Restrict the video width */
+    transition: width 0.3s ease;
+  }
+  
+  .analyticsContainer {
+    background-color: #f0f0f0; /* Grey background for the analytics box */
+    padding: 1rem;
+    border-radius: 1rem;
+  }
+  
+  .analyticsContainer p {
+    font-weight: bold;
+    margin: 4rem 0;
+  }
+  
+  /* Media Queries for Mobile (0px to 899px) */
+  @media screen and (max-width: 899px) {
+    .videoAnalyticsContainer {
+      flex-direction: column;
+      padding: 1rem;
+      margin: 1rem 1rem; /* Adjusted margin for mobile devices */
+      margin-bottom: 8rem;
+    }
+
+    .analyticsContainer {
+        padding: 0 6rem;
+      }
+  
+    .responsiveIframe {
+      width: 100%;
+    }
+  }
+  

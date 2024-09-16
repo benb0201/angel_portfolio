@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import classes from "../styles/Projects.module.css";
-import Audience from "./Audience";
+import Audience from "../sections/Audience";
 
 const Projects = () => {
   const [activeIndex, setActiveIndex] = useState(null);

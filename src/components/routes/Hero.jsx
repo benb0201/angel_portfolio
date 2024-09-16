@@ -10,7 +10,8 @@ import instagram from "../../assets/instagram.png";
 import tiktok from "../../assets/tiktok.png";
 import youtube from "../../assets/youtube.png";
 import Brands from "../sections/Brands";
-import About from "./About";
+import About from "../sections/About";
+import VideoAnalytics from "../sections/VideoAnalytics";
 
 function Hero() {
   return (
@@ -81,6 +82,14 @@ function Hero() {
         />
       </section>
       <About />
+      {/* Add VideoAnalytics Component */}
+      <VideoAnalytics
+        videoUrl="https://www.tiktok.com/embed/7314652239593753888"
+        views="12,345"
+        shares="234"
+        comments="56"
+        saves="89"
+      />
       <Brands />
     </>
   );
