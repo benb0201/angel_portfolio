@@ -42,6 +42,10 @@ const Brands = () => {
           Go to my <Link to="/content">Promotional Services</Link> page to learn
           more.
         </p>
+        <p className={classes.sectionTextP2}>
+          <br />
+          Find below, some examples of my videos:
+        </p>
       </div>
       <img
         src={arrowIcon}

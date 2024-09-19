@@ -5,7 +5,6 @@ import profilePic from "../../assets/profile-pic.jpg";
 import resume from "../../assets/resume.pdf";
 import mediaKit from "../../assets/media-kit.pdf";
 import linkedIn from "../../assets/linkedin.png";
-import github from "../../assets/github.png";
 import instagram from "../../assets/instagram.png";
 import tiktok from "../../assets/tiktok.png";
 import youtube from "../../assets/youtube.png";
@@ -14,6 +13,23 @@ import About from "../sections/About";
 import VideoAnalytics from "../sections/VideoAnalytics";
 
 function Hero() {
+  const videos = [
+    {
+      videoUrl: "https://www.tiktok.com/embed/7361068679875939616",
+      views: "12,345",
+      shares: "234",
+      comments: "56",
+      saves: "89",
+    },
+    {
+      videoUrl: "https://www.tiktok.com/embed/7365960866644233504",
+      views: "22,123",
+      shares: "567",
+      comments: "78",
+      saves: "145",
+    },
+  ];
+
   return (
     <>
       <section id="hero" className={classes.hero}>
@@ -82,15 +98,8 @@ function Hero() {
         />
       </section>
       <About />
-      {/* Add VideoAnalytics Component */}
-      <VideoAnalytics
-        videoUrl="https://www.tiktok.com/embed/7314652239593753888"
-        views="12,345"
-        shares="234"
-        comments="56"
-        saves="89"
-      />
       <Brands />
+      <VideoAnalytics videos={videos} />
     </>
   );
 }

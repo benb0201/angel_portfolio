@@ -127,9 +127,7 @@
     div.sectionContainer {
         display: block;
       }
-      div.sectionContainer2 {
-        display: block;
-      }
+
     div.sectionPicContainer {
     width: auto;
     height: 46vw;
@@ -141,7 +139,7 @@
     margin-bottom: 0;
     }
     div.textContainer {
-        text-align: justify;
+        text-align: center;
         margin: 0 2rem;
       }
     img.arrow{

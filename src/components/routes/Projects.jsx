@@ -71,6 +71,7 @@ const Projects = () => {
                       height="450"
                       frameBorder="0"
                       allowFullScreen
+                      loading="lazy"
                       title={service.title}
                     ></iframe>
                   ) : (
