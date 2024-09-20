@@ -9,10 +9,6 @@
     margin-bottom: 12rem;
 }
 
-.aboutAudience {
-
-}
-
 .sectionContainer {
     display: flex;
     justify-content: center;
@@ -120,6 +116,9 @@
     .about {
         margin: -2rem 0 8rem;
     }
+    .aboutMe {
+        margin-bottom: 8rem;
+    }    
     div.aboutContainers {
       flex-wrap: wrap;
       margin-top: 0;

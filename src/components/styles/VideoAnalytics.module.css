@@ -66,26 +66,23 @@
   }
 }
 
-/* Media Queries for Mobile (0px to 899px) */
-@media screen and (max-width: 899px) {
+/* Desktop styling: Video on the left, analytics on the right */
+@media screen and (min-width: 900px) {
   .videoAnalyticsContainer {
-    flex-direction: column;
-    padding: 1rem;
+    flex-direction: row; /* Makes the layout horizontal for desktop */
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1200px;
+  }
+
+  .videoContainer {
+    flex: 1;
+    margin-right: 2rem; /* Space between video and analytics */
   }
 
   .analyticsContainer {
-    padding: 1rem; /* Reduced padding to avoid shrinking content */
-    text-align: center;
-    font-size: 1.1rem; /* Slightly larger font for better clarity */
-    font-weight: 600; /* Make text bolder for better clarity */
-  }
-
-  .analyticsContainer p {
-    margin: 0.75rem 0; /* Reduced margin for better spacing */
-  }
-
-  .responsiveIframe {
-    width: 100%;
+    flex: 1;
+    text-align: left;
   }
 }
 
@@ -119,10 +116,17 @@
   }
 
   .analyticsContainer {
-    padding: 0 6rem;
+    padding: 1rem; /* Reduced padding to avoid shrinking content */
+    text-align: center;
+    font-size: 1.1rem; /* Slightly larger font for better clarity */
+    font-weight: 600; /* Make text bolder for better clarity */
   }
 
-  .responsiveIframe {
-    width: 100%;
+  .analyticsContainer {
+    padding: 0 5.2rem;
+  }
+
+  .analyticsContainer p {
+    margin: 0.75rem 0; /* Reduced margin for better spacing */
   }
 }

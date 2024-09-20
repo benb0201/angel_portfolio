@@ -17,6 +17,17 @@
     width: auto;
 }
 
+.engageContainer{
+    padding: 1.5rem;
+    flex: 1;
+    background: white;
+    border-radius: 2rem;
+    border: rgb(53, 53, 53) 0.1rem solid;
+    border-color: rgb(163, 163, 163);
+    text-align: center;
+    /* height: 1rem; */
+}
+
 /* Sections*/
 
 .sectionContainer {
@@ -208,6 +219,14 @@ article .icon {
   }  
   .audience {
     margin-bottom: -10rem;
+  }
+
+  .engageContainer{
+    border-radius: 2rem;
+    border: rgb(53, 53, 53) 0.1rem solid;
+    border-color: rgb(163, 163, 163);
+    text-align: center;
+    /* height: 1rem; */
   }
   }
   

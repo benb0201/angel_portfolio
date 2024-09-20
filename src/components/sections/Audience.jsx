@@ -49,7 +49,7 @@ const Audience = () => {
               </article>
             </div>
           </div>
-          <div className={classes.detailsContainer}>
+          <div className={classes.engageContainer}>
             <h2 className={classes.experienceSubtitle}>Engagement</h2>
             <div className={classes.articleContainer2}>
               <article>

@@ -31,7 +31,6 @@ const VideoAnalytics = ({ videos }) => {
             height="450"
             frameBorder="0"
             allowFullScreen
-            loading="lazy"
             title="Promotional Video"
           ></iframe>
         </div>
