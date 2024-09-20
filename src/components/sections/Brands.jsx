@@ -47,12 +47,12 @@ const Brands = () => {
           Find below, some examples of my videos:
         </p>
       </div>
-      <img
+      {/* <img
         src={arrowIcon}
         alt="Arrow icon"
         className={`${classes.arrow} ${classes.icon}`}
         onClick={() => (location.href = "./#contact")}
-      />
+      /> */}
     </section>
   );
 };

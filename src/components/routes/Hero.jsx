@@ -90,12 +90,12 @@ function Hero() {
             />
           </div>
         </div>
-        <img
+        {/* <img
           src={arrowIcon}
           alt="Arrow icon"
           className={`${classes.arrow} ${classes.icon}`}
           onClick={() => (location.href = "./#brands")}
-        />
+        /> */}
       </section>
       <About />
       <Brands />

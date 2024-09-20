@@ -69,12 +69,12 @@ const About = () => {
           </div>
         </div>
       </div>
-      <img
+      {/* <img
         src={arrowIcon}
         alt="Arrow icon"
         className={`${classes.arrow} ${classes.icon}`}
         onClick={() => (location.href = "#contact")}
-      />
+      /> */}
     </section>
   );
 };
