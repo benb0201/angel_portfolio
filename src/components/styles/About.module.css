@@ -114,10 +114,10 @@
 /* Mobile (0px to 599px) */
 @media screen and (max-width: 599px) {
     .about {
-        margin: -2rem 0 8rem;
+        margin: -2rem 0 6rem;
     }
     .aboutMe {
-        margin-bottom: 8rem;
+        margin-bottom: 0;
     }    
     div.aboutContainers {
       flex-wrap: wrap;

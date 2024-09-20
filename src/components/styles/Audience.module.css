@@ -19,7 +19,6 @@
 
 .engageContainer{
     padding: 1.5rem;
-    flex: 1;
     background: white;
     border-radius: 2rem;
     border: rgb(53, 53, 53) 0.1rem solid;
@@ -84,9 +83,7 @@
 
 .comment, .question1 {
   height: 4rem; /* Adjust the height */
-  width: auto;
   /* object-fit: cover; */
-  margin: 0 auto;
   padding: 0;
 }
 
@@ -187,19 +184,15 @@ article .icon {
     .comment3{
       height: 5rem;
     }
-    div.experienceContainer {
-      flex-wrap: wrap;
-    }
   
     h2.experienceSubtitle {
       font-size: 1.25rem;
     }
   
     div.sectionPicContainer {
-      width: auto;
       height: 46vw;
       justify-content: center;
-      margin: 0 auto 2rem;
+      margin: 0 0 2rem;
     }
   
     p.sectionTextP2 {
