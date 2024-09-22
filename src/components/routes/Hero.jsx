@@ -44,9 +44,9 @@ function Hero() {
           <div className={classes.btnContainer}>
             <button
               className={`${classes.btn} ${classes.btnColor2}`}
-              onClick={() => window.open(mediaKit, "_blank")}
+              // onClick={() => window.open(mediaKit, "_blank")}
             >
-              View Media-kit
+              Download CV template
             </button>
             <button
               className={`${classes.btn} ${classes.btnColor1}`}
